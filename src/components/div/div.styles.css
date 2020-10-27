@@ -1,0 +1,30 @@
+.div{
+    color:  black;
+    
+    text-align: center;
+    width: auto;
+    padding: 10px;
+    margin: 20px;
+}
+.colone{
+    width: 50%;
+    border: 1px solid black;
+    height:100px;
+    background-color: blanchedalmond;
+}
+.coltwo{
+    width: 50%;
+    border: 1px solid black;
+    height:100px;
+    text-align: center;
+    background-color: burlywood;
+}
+
+.row{
+    margin: 5px;
+    padding: 5px;
+}
+
+h2{
+    text-align: center;
+}
