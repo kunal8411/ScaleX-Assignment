@@ -3,7 +3,7 @@ import React from 'react';
 import './header.styles.scss'
 import { Navbar, Nav,  Form, FormControl,Button } from 'react-bootstrap';
 const Header= ()=>(
-    <Navbar bg="grey" expand="lg">
+    <Navbar bg="grey" expand="lg" className='header'>
   <Navbar.Brand href="/">ScaleX</Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
@@ -18,6 +18,7 @@ const Header= ()=>(
     </Form>
   </Navbar.Collapse>
 </Navbar>
+
 )
 
 export default Header;
